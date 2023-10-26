@@ -1,0 +1,246 @@
+
+body{
+    font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+
+
+
+.menu{
+    display: block;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list-item{
+    display: inline-block;
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #373737;
+    margin-right:30px ;
+}
+
+.logo-container img{
+    width: 120px;
+}
+
+
+.main-banner img{
+    width: 100%;
+}
+
+
+
+
+
+/* CARACTERISTICS*/
+
+.caracteristics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+}
+
+.caracteristic{
+    display: flex;
+    align-items: center;
+}
+
+.caracteristic img{
+    margin: 30px 15px 15px 15px;
+}
+
+.caracteristic-valoration{
+    margin: 30px 15px 15px 15px;
+    font-weight: bold;
+}
+
+.caracteristic-data{
+    display: block;
+    
+}
+
+.caracteristic-data p.caracteristic-1{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.caracteristic-data p.caracteristic-2{
+    font-weight: 100;
+    margin: 0;
+   
+}
+
+
+
+/* COLLECTIONS */
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+   
+}
+.collection{
+    position: relative;
+}
+
+.collections img{
+    width: 450px;
+    
+}
+
+.collection-description{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+
+.collection-description-buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px 0 ;
+}
+
+.collection-description-text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* PACKS */
+.packs{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.packs-banner-container{
+    position: relative;
+    justify-content: space-between;
+
+}
+.packs-banner{
+    
+    width: 1480px;
+    margin: 0 20px 0 20px;
+    
+}
+
+.create-packs-block{
+    position: absolute;
+    /*DUDA 
+        Por que a diferencia con el ejemplo de relative y absolute de arriba,
+        cuando pongo top el elemento sube para arriba en vez de bajar
+        top: 100px;
+    */
+    margin-top: 100px;
+    left: 50px;
+
+    
+}
+
+
+.create-packs-block p.text-2{
+  
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+
+.create-packs-block button{
+  
+    padding: 10px 20px 10px 20px;
+    background-color: #373737;
+    border: 0;
+    color: white;
+}
+
+/* NOVEDADES */
+
+.news{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.examples{
+    display: flex;
+    width:1420px;
+    margin: 0 10px 0 50px;
+    padding: 30px 20px 30px 20px;
+    
+}
+
+.examples-1{
+    margin-left: 30px;
+    margin-right: 10px;
+    
+}
+.examples-2{
+    margin: auto;
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+/* DISCOUNT */
+
+.discount{
+    text-align: center;
+}
+
+
+.discount-text-1{
+    font-weight: bold;
+    
+}
+
+.discount-text-2{
+    font-size: 13px;
+    
+}
+
+.email{
+    width: 350px;
+    padding: 10px 40px 10px 10px;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #F9E8F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #373737;
+    font-size: 12px;
+    
+}
+
+.footer p{
+    color: #373737;
+    font-size: 12px;
+}
